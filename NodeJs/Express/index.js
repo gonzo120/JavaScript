@@ -20,3 +20,11 @@ app.get('/guardar', function(req, res){ // peticion y respuestas
 app.listen(8888, function(){
     console.log('se levanto el servidor2');
 });
+
+/*
+GET=> se envian en la URL en formator URLEncoded
+req. query
+POST=> se envian empaquetados no visibles en el cuerpo de la peticion
+req. body
+Parametros tip express : nonbreParametro
+req.params */
